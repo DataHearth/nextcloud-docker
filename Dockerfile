@@ -45,6 +45,6 @@ RUN ls -al /usr/src/php/ext
 # ============
 # === RRON ===
 # ============
-RUN curl -fsSL https://github.com/DataHearth/rron/releases/download/v0.2.1/rron-amd64-gnu \
+RUN curl -fsSL https://github.com/DataHearth/rron/releases/download/v0.2.2/rron-amd64-gnu \
     --output /usr/local/bin/rron
 RUN chmod +x /usr/local/bin/rron
